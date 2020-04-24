@@ -111,7 +111,8 @@ PRODUCT_PACKAGES += \
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-    TetheringConfigOverlay
+    TetheringConfigOverlay \
+    WifiOverlay
 
 # Call proprietary blob setup
 $(call inherit-product-if-exists, vendor/xiaomi/certus64/certus64-vendor.mk)
