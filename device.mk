@@ -110,7 +110,8 @@ PRODUCT_PACKAGES += \
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-    TetheringConfigOverlay
+    TetheringConfigOverlay \
+    WifiOverlay
 
 # Call proprietary blob setup
 $(call inherit-product-if-exists, vendor/xiaomi/mt6765-common/mt6765-common-vendor.mk)
