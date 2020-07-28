@@ -47,6 +47,10 @@ BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6765
 
+# Kernel toolchains
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-gnueabihf-
+KERNEL_TOOLCHAIN := $(PWD)/prebuilts/gcc/linux-x86/arm/arm-linux-gnueabihf-7.5/bin
+
 # Lineage hardware
 BOARD_HARDWARE_CLASS += \
     $(COMMON_PATH)/lineagehw
