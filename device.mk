@@ -116,6 +116,10 @@ PRODUCT_PACKAGES += \
     ImsInit \
     TrebleApp
 
+# Wi-Fi
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay
+
 # Call proprietary blob setup
 $(call inherit-product-if-exists, vendor/xiaomi/certus64/certus64-vendor.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/mt6765-common/mt6765-common-vendor.mk)
