@@ -108,5 +108,9 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 PRODUCT_PACKAGES += \
     ImsInit
 
+# Wi-Fi
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay
+
 # Call proprietary blob setup
 $(call inherit-product-if-exists, vendor/xiaomi/mt6765-common/mt6765-common-vendor.mk)
