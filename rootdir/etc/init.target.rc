@@ -5,6 +5,10 @@ on boot
     chmod 0660 /sys/devices/platform/mtk_disp_mgr.0/rgb
     chown system system /sys/devices/platform/mtk_disp_mgr.0/rgb
 
+on init
+    # BPF
+    setprop ro.kernel.ebpf.supported true
+
 on post-fs-data
     # Services
     setprop init.svc.console stopped
