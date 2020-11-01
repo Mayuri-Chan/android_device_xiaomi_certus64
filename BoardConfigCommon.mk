@@ -93,6 +93,7 @@ TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
 BOARD_VNDK_VERSION  := current
 PRODUCT_EXTRA_VNDK_VERSIONS := 28
 TARGET_COPY_OUT_VENDOR := vendor
+TARGET_COPY_OUT_PRODUCT := system/product
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
