@@ -11,6 +11,13 @@ PRODUCT_PRODUCT_PROPERTIES  += \
 PRODUCT_PRODUCT_PROPERTIES  += \
     debug.sf.enable_gl_backpressure=1
 
+# IMS
+PRODUCT_PRODUCT_PROPERTIES  += \
+    persist.dbg.allow_ims_off=1 \
+    persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.vt_avail_ovr=1 \
+    persist.dbg.wfc_avail_ovr=1
+
 # Media
 PRODUCT_PRODUCT_PROPERTIES  += \
    media.stagefright.thumbnail.prefer_hw_codecs=true
@@ -41,3 +48,4 @@ PRODUCT_PRODUCT_PROPERTIES  += \
    ro.surface_flinger.vsync_event_phase_offset_ns=8300000 \
    ro.surface_flinger.vsync_sf_event_phase_offset_ns=830000 \
    ro.surface_flinger.present_time_offset_from_vsync_ns=0
+
