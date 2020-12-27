@@ -16,7 +16,8 @@ PRODUCT_PRODUCT_PROPERTIES  += \
     persist.dbg.allow_ims_off=1 \
     persist.dbg.volte_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1 \
-    persist.dbg.wfc_avail_ovr=1
+    persist.dbg.wfc_avail_ovr=1 \
+    persist.vendor.vilte_support=0
 
 # Media
 PRODUCT_PRODUCT_PROPERTIES  += \
