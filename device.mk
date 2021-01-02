@@ -100,6 +100,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/product-privapp-permissions-certus.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-certus.xml \
     $(LOCAL_PATH)/permissions/privapp-permissions-certus.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-certus.xml
 
+# RCS
+PRODUCT_PACKAGES += \
+    RcsService
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
