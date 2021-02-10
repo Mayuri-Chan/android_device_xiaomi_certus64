@@ -14,8 +14,10 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := $(call my-dir)
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/nad_certus.mk
 
-ifneq ($(filter certus,$(TARGET_DEVICE)),)
-include $(call all-makefiles-under,$(LOCAL_PATH))
-endif
+COMMON_LUNCH_CHOICES := \
+    nad_certus-user \
+    nad_certus-userdebug \
+    nad_certus-eng

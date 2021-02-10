@@ -16,7 +16,7 @@
 
 BOARD_VENDOR := xiaomi
 
-COMMON_PATH := device/xiaomi/mt6765-common
+DEVICE_PATH := device/xiaomi/certus
 
 BUILD_BROKEN_DUP_RULES := true
 
@@ -36,7 +36,7 @@ USE_XML_AUDIO_POLICY_CONF := 1
 TARGET_NO_BOOTLOADER := true
 
 # HIDL
-DEVICE_FRAMEWORK_MANIFEST_FILE := $(COMMON_PATH)/framework_manifest.xml
+DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32S1,32S1
@@ -46,6 +46,7 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x11b00000 -
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6765
+TARGET_KERNEL_CONFIG := wulan17_defconfig
 
 # Kernel toolchains
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-gnueabihf-
@@ -53,10 +54,13 @@ KERNEL_TOOLCHAIN := $(PWD)/prebuilts/gcc/linux-x86/arm/arm-linux-gnueabihf-7.5/b
 
 # Lineage hardware
 BOARD_HARDWARE_CLASS += \
-    $(COMMON_PATH)/lineagehw
+    $(DEVICE_PATH)/lineagehw
 
 # Network Routing
 TARGET_IGNORES_FTP_PPTP_CONNTRACK_FAILURE := true
+
+# OTA
+TARGET_OTA_ASSERT_DEVICE := certus
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
@@ -75,16 +79,16 @@ TARGET_TAP_TO_WAKE_NODE := /proc/touchpanel/double_tap_enable
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/recovery.fstab
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/recovery.fstab
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_SPARSE_EXT_DISABLED := false
 
 # Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 
 # SELinux
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 
 # Symbols
 TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so

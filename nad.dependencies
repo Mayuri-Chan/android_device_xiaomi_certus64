@@ -1,0 +1,26 @@
+[
+  {
+        "remote": "github",
+        "repository": "wulan17/android_kernel_xiaomi_mt6765",
+	"target_path": "kernel/xiaomi/mt6765",
+	"branch": "11-nad"
+  },
+  {
+	"remote": "github",
+	"repository": "wulan17/proprietary_vendor_xiaomi",
+	"target_path": "vendor/xiaomi",
+	"branch": "10"
+  },
+  {
+	"remote": "github",
+	"repository": "wulan17/linaro_arm-linux-gnueabihf-7.5",
+	"target_path": "prebuilts/gcc/linux-x86/arm/arm-linux-gnueabihf-7.5",
+	"branch": "master"
+  },
+  {
+	"remote": "github",
+	"repository": "LineageOS/android_packages_services_Telephony",
+	"target_path": "packages/services/Telephony",
+	"branch": "lineage-17.1"
+  }
+]
