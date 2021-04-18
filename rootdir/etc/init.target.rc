@@ -5,12 +5,6 @@ on boot
     chmod 0660 /sys/devices/platform/mtk_disp_mgr.0/rgb
     chown system system /sys/devices/platform/mtk_disp_mgr.0/rgb
 
-on init
-    # Force disable all VoLTE support -- it requires intensive modification of frameworks
-    # without framework support it creates all sorts of problems. Disable it.
-    setprop persist.vendor.mtk.volte.enable 0
-    setprop persist.vendor.mtk_ct_volte_support 0
-
 on property:sys.boot_completed=1
     # Toggle airplane mode on and off on boot to enable volte.
     # This hack needs ImsInit commit to request ims on boot to work properly.
