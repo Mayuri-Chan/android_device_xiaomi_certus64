@@ -58,10 +58,6 @@ ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 endif
 
-# Power
-PRODUCT_PACKAGES += \
-    power.mt6765
-
 # Prebuilt
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/dtb:dtb.img
