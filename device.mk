@@ -62,6 +62,10 @@ endif
 PRODUCT_PACKAGES += \
     power.mt6765
 
+# Prebuilt
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/dtb:dtb.img
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.enableswap \
