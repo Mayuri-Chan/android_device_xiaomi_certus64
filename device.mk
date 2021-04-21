@@ -62,6 +62,16 @@ endif
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/dtb:dtb.img
 
+# IMS
+PRODUCT_BOOT_JARS += \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.enableswap \
