@@ -37,3 +37,9 @@ lib/libvcodec_cap.so
 lib/libvcodec_capenc.so
 lib/libvt_avsync.so
 lib/vendor.mediatek.hardware.videotelephony@1.0.so
+
+# Mediatek EngineerMode
+priv-app/EngineerMode/EngineerMode.apk
+lib/libem_support_jni.so
+lib/libem_usb_jni.so
+lib/libem_wifi_jni.so
