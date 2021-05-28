@@ -113,6 +113,10 @@ PRODUCT_PACKAGES += \
     BatteryHealthOverlay \
     FpsInfoOverlay
 
+# Symbols
+PRODUCT_PACKAGES += \
+    libshim_vtservice
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
