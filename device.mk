@@ -74,6 +74,9 @@ PRODUCT_BOOT_JARS += \
     mediatek-telephony-base \
     mediatek-telephony-common
 
+PRODUCT_PACKAGES += \
+    ImsServiceBase
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.enableswap \
