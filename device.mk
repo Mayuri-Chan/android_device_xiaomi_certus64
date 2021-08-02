@@ -105,6 +105,11 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
+# RROs
+PRODUCT_PACKAGES += \
+    RoundedCornerFW \
+    RoundedCornerSysUI
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
