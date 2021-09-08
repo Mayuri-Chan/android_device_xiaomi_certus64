@@ -1,21 +1,21 @@
 [
   {
         "remote": "github",
-        "repository": "wulan17/android_kernel_xiaomi_mt6765",
+        "repository": "kbt69/android_kernel_xiaomi_mt6765",
 	"target_path": "kernel/xiaomi/mt6765",
-	"branch": "11-nad"
+	"branch": "10-alps"
   },
   {
 	"remote": "github",
-	"repository": "wulan17/proprietary_vendor_xiaomi",
+	"repository": "kbt69/proprietary_vendor_xiaomi",
 	"target_path": "vendor/xiaomi",
-	"branch": "10"
+	"branch": "10-alps"
   },
   {
-	"remote": "gitlab",
-	"repository": "wulan17/prebuilts_gcc_linux-x86_arm_arm-none-linux-gnueabihf",
-	"target_path": "prebuilts/gcc/linux-x86/arm/arm-none-linux-gnueabihf-9.2",
-	"branch": "9.2"
+	"remote": "github",
+	"repository": "kbt69/libaptX",
+	"target_path": "external/libaptx",
+	"branch": "main"
   },
   {
 	"remote": "github",
