@@ -224,6 +224,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/thermal/.thermal_policy_03:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_03 \
     $(DEVICE_PATH)/configs/thermal/.thermal_policy_05:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_05
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.basic
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     hostapd \
