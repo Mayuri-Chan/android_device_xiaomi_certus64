@@ -117,6 +117,15 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service \
     android.hardware.health@2.0-service.override
 
+# Init
+PRODUCT_PACKAGES += init_certus
+PRODUCT_VENDOR_PROPERTY_BLACKLIST := \
+    ro.bootimage.build.fingerprint \
+    ro.vendor.build.fingerprint \
+    ro.product.vendor.device \
+    ro.product.vendor.model \
+    ro.product.vendor.name \
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \

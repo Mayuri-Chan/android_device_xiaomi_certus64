@@ -1,0 +1,4 @@
+service vendor.init_certus /vendor/bin/init_certus
+    class early_hal
+    user root
+    oneshot
