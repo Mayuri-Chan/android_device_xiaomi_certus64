@@ -30,7 +30,7 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # VNDK
-PRODUCT_TARGET_VNDK_VERSION := 28
+PRODUCT_TARGET_VNDK_VERSION := current
 
 # APNs
 PRODUCT_COPY_FILES += \
@@ -62,10 +62,6 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 endif
-
-# Prebuilt
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/dtb:dtb.img
 
 # IMS
 PRODUCT_BOOT_JARS += \
@@ -108,10 +104,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# Symbols 
+# Symbols
 PRODUCT_PACKAGES += \
     libshim_showlogo
-    
+
 # System properties
 -include $(LOCAL_PATH)/product_prop.mk
 
