@@ -96,6 +96,9 @@ SIM_COUNT := 2
 # Seccomp filters
 BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
 
+# Sepolicy
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+
 # Vendor
 VENDOR_SECURITY_PATCH := 2020-10-05
 TARGET_COPY_OUT_VENDOR := vendor
