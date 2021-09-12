@@ -113,6 +113,11 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service \
     android.hardware.health@2.0-service.override
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@3.0-impl \
+    android.hardware.keymaster@3.0-service
+
 # Media Codecs
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/media/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
