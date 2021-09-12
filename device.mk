@@ -32,7 +32,8 @@ TARGET_SCREEN_WIDTH := 720
 # Audio
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
-    libalsautils
+    libalsautils \
+    libtinyxml
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
