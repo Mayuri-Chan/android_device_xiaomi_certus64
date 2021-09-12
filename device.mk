@@ -95,6 +95,11 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/gps/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \
     $(DEVICE_PATH)/configs/gps/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-impl \
+    android.hardware.gatekeeper@1.0-service
+
 # Media Codecs
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/media/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
