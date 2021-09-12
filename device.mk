@@ -129,6 +129,7 @@ PRODUCT_PACKAGES += \
     init.mt6765.rc \
     init.mt6765.usb.rc \
     init.project.rc \
+    init.recovery.mt6765.rc \
     init.sensor_1_0.rc \
     ueventd.mt6765.rc
 
