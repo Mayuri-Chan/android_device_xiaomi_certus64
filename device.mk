@@ -52,6 +52,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# GPS
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/gps/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \
+    $(DEVICE_PATH)/gps/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf
+
 # Media Codecs
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/media/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
