@@ -76,6 +76,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6765
 # RIL
 SIM_COUNT := 2
 
+# Seccomp filters
+BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
+
 # Vendor
 VENDOR_SECURITY_PATCH := 2020-10-05
 TARGET_COPY_OUT_VENDOR := vendor
