@@ -61,6 +61,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Fastboot
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # GPS
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/gps/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \

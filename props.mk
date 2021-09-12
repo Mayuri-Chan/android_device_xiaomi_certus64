@@ -3,6 +3,10 @@ ifneq ($(TARGET_BUILD_VARIANT),user)
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.usb.config=adb
 endif
 
+# Fastbootd
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.fastbootd.available=true
+
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.radio.fd.counter=150 \
