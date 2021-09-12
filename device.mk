@@ -31,6 +31,7 @@ TARGET_SCREEN_WIDTH := 720
 
 # Audio
 PRODUCT_PACKAGES += \
+    android.hardware.audio.effect@5.0-impl \
     audio.bluetooth.default \
     libalsautils \
     libtinyxml \
