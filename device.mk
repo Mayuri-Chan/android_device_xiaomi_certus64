@@ -66,6 +66,9 @@ PRODUCT_PACKAGES += \
     fastbootd
 
 # GPS
+PRODUCT_PACKAGES += \
+    libcurl
+
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/gps/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \
     $(DEVICE_PATH)/gps/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf
