@@ -91,6 +91,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.certus
+
 # FM Radio
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
