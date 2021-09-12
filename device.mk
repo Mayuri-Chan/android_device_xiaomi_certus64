@@ -54,7 +54,8 @@ PRODUCT_COPY_FILES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    libmockdrmcryptoplugin
+    libmockdrmcryptoplugin \
+    libdrm
 
 # Dynamic partitions
 PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
