@@ -1,0 +1,2 @@
+require version-baseband=MOLY.LR12A.R2.MP.V66.P18
+require board=cactus|cereus|certus
