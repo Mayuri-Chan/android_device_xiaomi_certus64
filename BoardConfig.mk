@@ -90,6 +90,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6765
 
 # RIL
+ENABLE_VENDOR_RIL_SERVICE := true
 SIM_COUNT := 2
 
 # Seccomp filters
