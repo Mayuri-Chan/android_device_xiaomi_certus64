@@ -213,7 +213,6 @@ vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
 vendor/etc/init/vendor.microtrust.hardware.capi@2.0-service.rc
 vendor/etc/init/wlan_assistant.rc
 vendor/etc/ipsec/ipsec.conf
-vendor/etc/ipsec/ipsec.d
 vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt
 vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG2.crt
 vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG3.crt
