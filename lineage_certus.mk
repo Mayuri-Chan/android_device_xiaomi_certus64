@@ -28,9 +28,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Boot Animation RES
 TARGET_BOOT_ANIMATION_RES := 720
 
-# Build Official
-REVENGEOS_BUILDTYPE := OFFICIAL
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_RELEASE_NAME := Xiaomi Redmi 6/A
 PRODUCT_BRAND := Xiaomi
