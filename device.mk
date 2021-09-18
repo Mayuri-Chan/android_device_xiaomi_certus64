@@ -109,7 +109,9 @@ PRODUCT_PACKAGES += \
 # RROs
 PRODUCT_PACKAGES += \
     RoundedCornerFW \
-    RoundedCornerSysUI
+    RoundedCornerSysUI \
+    BatteryHealthOverlay \
+    FpsInfoOverlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
