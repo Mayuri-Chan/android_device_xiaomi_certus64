@@ -15,13 +15,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_certus.mk \
-    $(LOCAL_DIR)/certus.mk
+    $(LOCAL_DIR)/nad_certus64.mk \
+    $(LOCAL_DIR)/certus64.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_certus-user \
-    nad_certus-userdebug \
-    nad_certus-eng \
-    certus-user \
-    certus-userdebug \
-    certus-eng
+    nad_certus64-user \
+    nad_certus64-userdebug \
+    nad_certus64-eng \
+    certus64-user \
+    certus64-userdebug \
+    certus64-eng
