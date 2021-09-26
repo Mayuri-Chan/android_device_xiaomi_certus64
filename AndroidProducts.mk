@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_certus.mk
+    $(LOCAL_DIR)/lineage_certus64.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_certus-user \
-    lineage_certus-userdebug \
-    lineage_certus-eng
+    lineage_certus64-user \
+    lineage_certus64-userdebug \
+    lineage_certus64-eng
