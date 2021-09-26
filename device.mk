@@ -14,7 +14,6 @@
 # limitations under the License.
 #
 
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
@@ -118,4 +117,5 @@ PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
 
 # Call proprietary blob setup
+$(call inherit-product-if-exists, vendor/xiaomi/certus64/certus64-vendor.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/mt6765-common/mt6765-common-vendor.mk)
