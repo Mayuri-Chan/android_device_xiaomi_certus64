@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <permissions>
-    <privapp-permissions package="com.android.settings">
-        <permission name="android.permission.WRITE_APN_SETTINGS"/>
-        <permission name="android.permission.RESET_BATTERY_STATS"/>
+    <privapp-permissions package="org.lineageos.snap">
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="lineage.permission.PREVENT_POWER_KEY"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
     </privapp-permissions>
-    <privapp-permissions package="com.android.systemui">
-        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+    <privapp-permissions package="org.omnirom.logcat">
+        <permission name="android.permission.READ_LOGS"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.custom.ambient.display">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.android.wallpaper">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.SET_WALLPAPER_COMPONENT"/>
+        <permission name="android.permission.CHANGE_OVERLAY_PACKAGES"/>
     </privapp-permissions>
 </permissions>
