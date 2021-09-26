@@ -21,3 +21,4 @@ COMMON_LUNCH_CHOICES := \
     lineage_certus64-user \
     lineage_certus64-userdebug \
     lineage_certus64-eng
+
