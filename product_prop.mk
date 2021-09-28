@@ -7,6 +7,10 @@ PRODUCT_PRODUCT_PROPERTIES  += \
    ro.config.system_vol_steps=15 \
    ro.config.ring_notification_vol_steps=15
 
+# Fastbootd
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.fastbootd.available=true
+
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES  += \
     debug.sf.enable_gl_backpressure=1
