@@ -1,9 +1,3 @@
-# Offline Charging
-bin/kpoc_charger
-etc/init/kpoc_charger.rc
-lib/libshowlogo.so
-lib/libsysenv_system.so
-
 # MTK-IMS
 # from full_certus-userdebug 10 QP1A.190711.020 mp1V91561 test-keys
 -framework/mediatek-common.jar
