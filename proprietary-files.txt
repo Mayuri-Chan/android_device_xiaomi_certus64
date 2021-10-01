@@ -7,7 +7,6 @@
 -framework/mediatek-telecom-common.jar
 -framework/mediatek-telephony-base.jar
 -framework/mediatek-telephony-common.jar
--priv-app/ImsService/ImsService.apk
 bin/vtservice
 etc/init/init.vtservice.rc
 framework/mediatek-ims-legacy.jar
@@ -36,3 +35,6 @@ priv-app/EngineerMode/EngineerMode.apk
 lib/libem_support_jni.so
 lib/libem_usb_jni.so
 lib/libem_wifi_jni.so
+
+# from https://treble.phh.me/stable/ims-mtk-q.apk
+priv-app/ImsService/ImsService.apk|965f1d750e2b327fb32535c97ee131e8
