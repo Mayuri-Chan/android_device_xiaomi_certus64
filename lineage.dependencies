@@ -18,12 +18,6 @@
 	"branch": "main"
   },
   {
-	"remote": "github",
-	"repository": "LineageOS/android_packages_services_Telephony",
-	"target_path": "packages/services/Telephony",
-	"branch": "lineage-17.1"
-  },
-  {
         "remote": "github",
         "repository": "wulan17/linaro_arm-linux-gnueabihf-7.5",
         "target_path": "prebuilts/gcc/linux-x86/arm/arm-linux-gnueabihf-7.5",
