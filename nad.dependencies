@@ -9,7 +9,7 @@
 	"remote": "github",
 	"repository": "kbt69/proprietary_vendor_xiaomi",
 	"target_path": "vendor/xiaomi",
-	"branch": "10-alps"
+	"branch": "11-alps"
   },
   {
 	"remote": "github",
