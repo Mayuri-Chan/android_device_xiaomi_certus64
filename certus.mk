@@ -14,14 +14,15 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_certus.mk \
-    $(LOCAL_DIR)/certus.mk
+# Inherit from device
+$(call inherit-product, device/xiaomi/certus/device.mk)
 
-COMMON_LUNCH_CHOICES := \
-    nad_certus-user \
-    nad_certus-userdebug \
-    nad_certus-eng \
-    certus-user \
-    certus-userdebug \
-    certus-eng
+# Boot animaton
+TARGET_BOOT_ANIMATION_RES := 720
+
+# Device identifier. This must come after all inclusions
+PRODUCT_DEVICE := certus
+PRODUCT_NAME := certus
+PRODUCT_BRAND := xiaomi
+PRODUCT_MODEL := Redmi 6 / Redmi 6A
+PRODUCT_MANUFACTURER := Xiaomi
