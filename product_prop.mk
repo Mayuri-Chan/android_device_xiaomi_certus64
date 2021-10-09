@@ -12,7 +12,7 @@ PRODUCT_PRODUCT_PROPERTIES  += \
     debug.sf.enable_gl_backpressure=1
 
 # IMS
-PRODUCT_PRODUCT_PROPERTIES  += \
+#PRODUCT_PRODUCT_PROPERTIES  += \
     persist.dbg.allow_ims_off=1 \
     persist.dbg.volte_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1 \

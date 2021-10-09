@@ -14,5 +14,5 @@ on post-fs-data
     setprop init.svc.console stopped
 
 # Disable AOSP RIL if MTK RIL is up
-on property:vendor.ril.mtk=1
-    stop vendor.ril-daemon
+#on property:vendor.ril.mtk=1
+#    stop vendor.ril-daemon
