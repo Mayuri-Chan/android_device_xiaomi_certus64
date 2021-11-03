@@ -18,17 +18,11 @@
 $(call inherit-product, device/xiaomi/certus64/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
-
-# Official tag
-NAD_BUILD_TYPE := OFFICIAL
-
-# Boot animaton
-TARGET_BOOT_ANIMATION_RES := 720
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := certus64
-PRODUCT_NAME := nad_certus64
+PRODUCT_NAME := lineage_certus64
 PRODUCT_BRAND := xiaomi
 PRODUCT_MODEL := Redmi 6 / Redmi 6A
 PRODUCT_MANUFACTURER := Xiaomi
