@@ -13,14 +13,8 @@
   },
   {
 	"remote": "github",
-	"repository": "kbt69/libaptX",
+	"repository": "kbt69/android_external_libaptX",
 	"target_path": "external/libaptx",
 	"branch": "main"
-  },
-  {
-	"remote": "github",
-	"repository": "LineageOS/android_packages_services_Telephony",
-	"target_path": "packages/services/Telephony",
-	"branch": "lineage-17.1"
   }
 ]
