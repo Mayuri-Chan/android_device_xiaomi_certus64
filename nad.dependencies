@@ -13,7 +13,7 @@
   },
   {
 	"remote": "github",
-	"repository": "kbt69/libaptX",
+	"repository": "kbt69/android_external_libaptX",
 	"target_path": "external/libaptx",
 	"branch": "main"
   },
