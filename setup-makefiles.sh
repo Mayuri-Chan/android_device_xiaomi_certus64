@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=certus
+DEVICE=certus64
 VENDOR=xiaomi
 
 INITIAL_COPYRIGHT_YEAR=2018

@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=certus
+DEVICE=certus64
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks

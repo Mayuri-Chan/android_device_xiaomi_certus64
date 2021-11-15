@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/certus
+DEVICE_PATH := device/xiaomi/certus64
 
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := framework-res

@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/certus
+DEVICE_PATH := device/xiaomi/certus64
 
 # Architecture
 TARGET_ARCH_VARIANT := armv8-a
@@ -69,7 +69,7 @@ TARGET_KERNEL_CONFIG := certus_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := cactus,cereus,certus
+TARGET_OTA_ASSERT_DEVICE := cactus,cereus,certus,certus64
 
 # Partitons
 BOARD_CERTUS_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor
