@@ -9,18 +9,12 @@
 	"remote": "github",
 	"repository": "kbt69/proprietary_vendor_xiaomi",
 	"target_path": "vendor/xiaomi",
-	"branch": "11-alps"
+	"branch": "12"
   },
   {
 	"remote": "github",
 	"repository": "kbt69/libaptX",
 	"target_path": "external/libaptx",
 	"branch": "main"
-  },
-  {
-	"remote": "github",
-	"repository": "LineageOS/android_packages_services_Telephony",
-	"target_path": "packages/services/Telephony",
-	"branch": "lineage-17.1"
   }
 ]
