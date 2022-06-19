@@ -1,19 +1,19 @@
 [
   {
         "remote": "github",
-        "repository": "kbt69/android_kernel_xiaomi_mt6765",
+        "repository": "Mayuri-Chan/android_kernel_xiaomi_mt6765",
 	"target_path": "kernel/xiaomi/mt6765",
 	"branch": "10-alps"
   },
   {
 	"remote": "github",
-	"repository": "kbt69/proprietary_vendor_xiaomi",
+	"repository": "Mayuri-Chan/proprietary_vendor_xiaomi",
 	"target_path": "vendor/xiaomi",
 	"branch": "10-alps"
   },
   {
 	"remote": "github",
-	"repository": "kbt69/android_external_libaptX",
+	"repository": "Mayuri-Chan/android_external_libaptX",
 	"target_path": "external/libaptx",
 	"branch": "main"
   },
